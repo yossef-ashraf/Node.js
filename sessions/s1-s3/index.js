@@ -185,3 +185,33 @@
 // 	});
 
 // program.parse(process.argv);
+
+// setTimeout(() => {
+//     console.log('1');
+// }, 1000);
+// console.log('1c');
+// setTimeout(() => {
+//     console.log('0');
+// }, 0);
+// console.log('0c');
+// setTimeout(() => {
+//     console.log('2');
+// }, 200);
+// console.log('2c');
+
+// // 1c
+// // 0c
+// // 2c
+// // 0
+// // 2
+// // 1
+
+// const http=require('node:http');
+
+// const server=http.createServer((req,res)=>{
+//     res.end('hello world');
+// })
+
+// server.listen('3000',()=>{
+//     console.log('server is running on port 3000');
+// });

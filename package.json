@@ -1,19 +1,11 @@
 {
-  "name": "node",
+  "name": "server-node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "nodemon": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin":"./index.js",
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "codezone-courses-manager": "^1.0.0",
-    "commander": "^11.1.0",
-    "inquirer": "^9.2.12",
-    "lodash": "^4.17.21"
-  }
+  "license": "ISC"
 }

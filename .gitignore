@@ -1,2 +1,4 @@
 /node_modules
+/sessions
 sessions/s1-s3/node_modules
+sessions/api/node_modules
